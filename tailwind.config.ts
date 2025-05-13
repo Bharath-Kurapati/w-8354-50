@@ -63,6 +63,11 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
+				brand: {
+					purple: '#5145FF',
+					purpleLight: '#7165ff',
+					purpleDark: '#3d33cc'
+				},
 				wrlds: {
 					teal: '#9F9EA1',
 					dark: '#3F3F3F',

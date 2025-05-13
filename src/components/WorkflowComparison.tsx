@@ -32,7 +32,7 @@ const WorkflowComparison = () => {
       {/* Left Column - Old Way */}
       <div className="flex-1">
         <div className="mb-4">
-          <h3 className="text-xl font-montserrat font-semibold text-white mb-1">The old way (manual forecasting)</h3>
+          <h3 className="text-xl font-montserrat font-semibold text-white mb-1">Manual Forecasting</h3>
           <p className="text-sm text-gray-400">10+ steps · data scientist required · 50+ hrs each cycle · error-prone</p>
         </div>
         <div className="space-y-2">
@@ -58,15 +58,15 @@ const WorkflowComparison = () => {
       <div className="flex items-center justify-center">
         <div className="flex flex-col items-center">
           <ArrowRight className="h-12 w-12 text-indigo-500" />
-          <span className="text-indigo-400 font-semibold text-center">90% less work + 2× more accuracy</span>
+          <span className="text-indigo-400 font-semibold text-center">90% less work + 2X more accuracy</span>
         </div>
       </div>
 
       {/* Right Column - New Way */}
       <div className="flex-1">
         <div className="mb-4">
-          <h3 className="text-xl font-montserrat font-semibold text-white mb-1">The new way (FeatureBox AI)</h3>
-          <p className="text-sm text-gray-400">4 steps · minutes · 2× more accurate</p>
+          <h3 className="text-xl font-montserrat font-semibold text-white mb-1">FeatureBox AI</h3>
+          <p className="text-sm text-gray-400">4 steps · minutes · 2X more accurate</p>
         </div>
         <div className="space-y-3">
           {newWorkflowSteps.map((step, index) => (

@@ -279,7 +279,7 @@
 }
 
 .text-gradient {
-  @apply bg-gradient-to-r from-indigo-600 to-emerald-500 bg-clip-text text-transparent;
+  @apply bg-gradient-to-r from-[#5145FF] to-[#7165ff] bg-clip-text text-transparent;
 }
 
 .glass-effect {
