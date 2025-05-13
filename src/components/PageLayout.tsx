@@ -1,31 +1,20 @@
 
-import React, { useEffect } from 'react';
-import { useLocation } from 'react-router-dom';
-import Navbar from '@/components/Navbar';
-import Footer from '@/components/Footer';
-import ContactInfo from '@/components/ContactInfo';
-import FloatingContactButton from '@/components/FloatingContactButton';
+import React from 'react';
+import Navbar from './Navbar';
+import Footer from './Footer';
 
-type PageLayoutProps = {
+interface PageLayoutProps {
   children: React.ReactNode;
-  showContact?: boolean;
-};
+}
 
-const PageLayout = ({ children, showContact = true }: PageLayoutProps) => {
-  const location = useLocation();
-
-  // Effect to scroll to top when route changes
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [location]);
-
+const PageLayout: React.FC<PageLayoutProps> = ({ children }) => {
   return (
-    <div className="min-h-screen bg-white w-full max-w-[100vw] overflow-x-hidden">
+    <div className="min-h-screen flex flex-col">
       <Navbar />
-      {children}
-      {showContact && <ContactInfo />}
+      <main className="flex-grow">
+        {children}
+      </main>
       <Footer />
-      {showContact && <FloatingContactButton />}
     </div>
   );
 };
