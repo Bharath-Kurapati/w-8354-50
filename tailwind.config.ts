@@ -69,6 +69,13 @@ export default {
 					light: '#F6F6F7',
 					accent: '#C8C8C9',
 					muted: '#F1F1F1'
+				},
+				dark: {
+					background: '#121212',
+					card: '#1E1E1E',
+					border: '#2A2A2A',
+					muted: '#282828',
+					highlight: '#323232'
 				}
 			},
 			borderRadius: {
@@ -78,6 +85,9 @@ export default {
 			},
 			fontFamily: {
 				'space': ['Space Grotesk', 'sans-serif'],
+				'poppins': ['Poppins', 'sans-serif'],
+				'montserrat': ['Montserrat', 'sans-serif'],
+				'playfair': ['Playfair Display', 'serif'],
 			},
 			keyframes: {
 				'accordion-down': {

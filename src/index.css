@@ -1,5 +1,7 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -7,33 +9,33 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 0 0% 15%;
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 0 0% 15%;
+    --card: 240 10% 3.9%;
+    --card-foreground: 0 0% 98%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 0 0% 15%;
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 0 0% 98%;
 
-    --primary: 0 0% 10%;
-    --primary-foreground: 0 0% 98%;
+    --primary: 0 0% 98%;
+    --primary-foreground: 240 5.9% 10%;
 
-    --secondary: 0 0% 95%;
-    --secondary-foreground: 0 0% 15%;
+    --secondary: 240 3.7% 15.9%;
+    --secondary-foreground: 0 0% 98%;
 
-    --muted: 0 0% 95%;
-    --muted-foreground: 0 0% 40%;
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 240 5% 64.9%;
 
-    --accent: 0 0% 95%;
-    --accent-foreground: 0 0% 15%;
+    --accent: 240 3.7% 15.9%;
+    --accent-foreground: 0 0% 98%;
 
-    --destructive: 0 84.2% 60.2%;
+    --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 0 0% 90%;
-    --input: 0 0% 90%;
-    --ring: 0 0% 50%;
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+    --ring: 240 4.9% 83.9%;
 
     --radius: 0.5rem;
   }
@@ -46,17 +48,17 @@
 
   html, body {
     @apply m-0 p-0 overflow-x-hidden;
-    width: 100vw; /* Changed from w-full to 100vw */
-    max-width: 100%; /* Added max-width */
+    width: 100vw;
+    max-width: 100%;
   }
 
   body {
-    @apply bg-white text-foreground font-space;
+    @apply bg-dark-background text-foreground font-poppins;
   }
 }
 
 .section-container {
-  @apply w-full px-4 sm:px-6 lg:px-8 py-12; /* Removed max-w-7xl mx-auto */
+  @apply w-full px-4 sm:px-6 lg:px-8 py-12;
 }
 
 .hover-lift {
@@ -74,7 +76,7 @@
 /* Banner styles */
 .banner-container {
   position: relative;
-  width: 100vw; /* Changed from 100% to 100vw */
+  width: 100vw;
   overflow: hidden;
 }
 
@@ -96,7 +98,7 @@
 .banner-title {
   font-size: 2.5rem;
   font-weight: 700;
-  margin-bottom: 1.5rem; /* Adjusted to match 20-30px spacing */
+  margin-bottom: 1.5rem;
 }
 
 .banner-subtitle {
@@ -261,4 +263,25 @@
 
 .animate-pulse-slow {
   animation: pulse-slow 4s ease-in-out infinite;
+}
+
+/* New dark theme utilities */
+.dark-card {
+  @apply bg-dark-card rounded-lg border border-dark-border shadow-md;
+}
+
+.dark-gradient {
+  @apply bg-gradient-to-br from-[#1E1E1E] to-[#121212];
+}
+
+.accent-gradient {
+  @apply bg-gradient-to-r from-indigo-600 to-emerald-500;
+}
+
+.text-gradient {
+  @apply bg-gradient-to-r from-indigo-600 to-emerald-500 bg-clip-text text-transparent;
+}
+
+.glass-effect {
+  @apply backdrop-blur-lg bg-white/5 border border-white/10;
 }
