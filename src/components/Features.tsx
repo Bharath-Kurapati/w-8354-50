@@ -17,7 +17,7 @@ const Features = () => {
     {
       icon: <MessageSquare className="h-8 w-8 text-indigo-600" />,
       title: "Explainability built-in",
-      description: "LLM-generated "Why did the forecast move?" stories."
+      description: "LLM-generated \"Why did the forecast move?\" stories."
     },
     {
       icon: <ArrowRight className="h-8 w-8 text-indigo-600" />,
