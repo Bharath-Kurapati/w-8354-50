@@ -12,13 +12,13 @@ const Hero = () => {
           <h1 className="text-4xl md:text-5xl font-bold font-playfair leading-tight tracking-tight mb-6 text-white">
             Forecast inventory with{' '}
             <span className="text-gradient inline-block">
-              2X more accuracy
+              2X
             </span>
-            —and 90% less work.
+            {' '}accuracy—in 90% less time.
           </h1>
           <p className="text-lg text-gray-300 mb-8 font-montserrat max-w-3xl mx-auto">
-            FeatureBox AI uses messy ERP and Excel data and turns it into forecasts in hours, not days or weeks. 
-            Save hundreds of hours and move from analysis to action to reclaim up to 45% of your revenue losses.
+            FeatureBox AI turns messy ERP and Excel data into forecasts in hours, not weeks. 
+            Mid-market CPG companies save hundreds of hours and reclaim up to 45% of revenue losses.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 

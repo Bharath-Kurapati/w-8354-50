@@ -22,7 +22,6 @@ const Index = () => {
         imageUrl="/lovable-uploads/48ecf6e2-5a98-4a9d-af6f-ae2265cd4098.png"
       />
       <Hero />
-      <SocialProof />
       <PainPoints />
       <WorkflowSteps />
       <Features />

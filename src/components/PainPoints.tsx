@@ -1,23 +1,23 @@
 
 import React from 'react';
-import { ShoppingCart, AlertTriangle, DollarSign } from 'lucide-react';
+import { ShoppingCart, Package, Receipt } from 'lucide-react';
 
 const PainPoints = () => {
   const painPoints = [
     {
       icon: <ShoppingCart className="h-8 w-8 text-indigo-600" />,
-      title: "Stock-outs",
-      description: "Lost sales and disappointed customers",
+      title: "Lost Sales",
+      description: "Revenue impact from stock-outs",
     },
     {
-      icon: <AlertTriangle className="h-8 w-8 text-amber-600" />,
-      title: "Overstock",
-      description: "Wasted capital and storage fees",
+      icon: <Package className="h-8 w-8 text-amber-600" />,
+      title: "Capital Tied Up",
+      description: "Overstock freezing working capital",
     },
     {
-      icon: <DollarSign className="h-8 w-8 text-emerald-600" />,
-      title: "Revenue Loss",
-      description: "15-45% revenue impact for SMBs",
+      icon: <Receipt className="h-8 w-8 text-emerald-600" />,
+      title: "Fees & Fines",
+      description: "Penalties from 3PLs & partners",
     },
   ];
 
@@ -31,20 +31,20 @@ const PainPoints = () => {
             </span>{' '}
             inventory distortion every year
           </h2>
-          <p className="text-lg text-gray-700 max-w-3xl mx-auto">
+          <p className="text-lg text-white max-w-3xl mx-auto">
             SMBs lose 15-45% of revenue to stock-outs, overstock & storage fees.
           </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {painPoints.map((point, index) => (
-            <div key={index} className="bg-white p-6 rounded-lg shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
+            <div key={index} className="bg-dark-card p-6 rounded-lg shadow-sm border border-gray-800 hover:shadow-md transition-shadow">
               <div className="flex flex-col items-center text-center">
-                <div className="mb-4 p-3 bg-gray-50 rounded-full">
+                <div className="mb-4 p-3 bg-gray-900 rounded-full">
                   {point.icon}
                 </div>
-                <h3 className="text-xl font-semibold mb-2">{point.title}</h3>
-                <p className="text-gray-600">{point.description}</p>
+                <h3 className="text-xl font-semibold mb-2 text-white">{point.title}</h3>
+                <p className="text-gray-400">{point.description}</p>
               </div>
             </div>
           ))}
