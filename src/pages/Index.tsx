@@ -10,6 +10,7 @@ import CTABanner from '@/components/CTABanner';
 import SEO from '@/components/SEO';
 import VisionProducts from '@/components/VisionProducts';
 import SocialProof from '@/components/SocialProof';
+import FeatureHighlights from '@/components/FeatureHighlights';
 
 const Index = () => {
   return (
@@ -20,6 +21,7 @@ const Index = () => {
         imageUrl="/lovable-uploads/48ecf6e2-5a98-4a9d-af6f-ae2265cd4098.png"
       />
       <Hero />
+      <FeatureHighlights />
       <MagicExperience />
       <Benefits />
       <VisionProducts />
