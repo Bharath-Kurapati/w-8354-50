@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -66,7 +65,8 @@ export default {
 				brand: {
 					purple: '#5145FF',
 					purpleLight: '#7165ff',
-					purpleDark: '#3d33cc'
+					purpleDark: '#3d33cc',
+					jade: '#00B37E'
 				},
 				wrlds: {
 					teal: '#9F9EA1',
@@ -93,6 +93,7 @@ export default {
 				'poppins': ['Poppins', 'sans-serif'],
 				'montserrat': ['Montserrat', 'sans-serif'],
 				'playfair': ['Playfair Display', 'serif'],
+				'inter': ['Inter', 'sans-serif'],
 			},
 			keyframes: {
 				'accordion-down': {

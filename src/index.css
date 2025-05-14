@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
@@ -47,18 +48,22 @@
   }
 
   html, body {
-    @apply m-0 p-0 overflow-x-hidden;
+    @apply m-0 p-0 overflow-x-hidden font-inter;
     width: 100vw;
     max-width: 100%;
   }
 
   body {
-    @apply bg-dark-background text-foreground font-poppins;
+    @apply bg-dark-background text-foreground;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-inter font-extrabold;
   }
 }
 
 .section-container {
-  @apply w-full px-4 sm:px-6 lg:px-8 py-12;
+  @apply w-full px-8 sm:px-8 lg:px-8 py-12;
 }
 
 .hover-lift {
@@ -284,4 +289,56 @@
 
 .glass-effect {
   @apply backdrop-blur-lg bg-white/5 border border-white/10;
+}
+
+/* New Inter font utilities */
+.font-inter {
+  font-family: 'Inter', sans-serif;
+}
+
+.font-weight-800 {
+  font-weight: 800;
+}
+
+.font-weight-400 {
+  font-weight: 400;
+}
+
+/* New colors based on the requirements */
+.text-indigo {
+  color: #5145FF;
+}
+
+.bg-indigo {
+  background-color: #5145FF;
+}
+
+.text-jade {
+  color: #00B37E;
+}
+
+.bg-jade {
+  background-color: #00B37E;
+}
+
+/* Modern layout utilities */
+.modern-saas-layout {
+  @apply flex flex-col md:flex-row items-center justify-between gap-8 lg:gap-12;
+}
+
+.text-left-visual-right {
+  @apply flex flex-col md:flex-row items-center;
+}
+
+.text-column {
+  @apply md:w-1/2 space-y-6;
+}
+
+.visual-column {
+  @apply md:w-1/2 flex justify-center md:justify-end;
+}
+
+/* Dark card with soft radius */
+.dark-card-magic {
+  @apply bg-[#1E1E1E] rounded-lg p-8 shadow-lg;
 }

@@ -23,29 +23,29 @@ const Navbar = () => {
         isScrolled ? 'bg-black/95 shadow-sm backdrop-blur-sm' : 'bg-transparent'
       }`}
     >
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="container mx-auto px-8">
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center">
             <Link to="/" className="flex items-center">
               <img src="/lovable-uploads/7fd38d18-a5d9-498b-8fd4-418f32b5ca22.png" alt="FeatureBox AI" className="h-8 mr-2" />
-              <span className="text-2xl font-bold text-[#5145FF]">FeatureBox AI</span>
+              <span className="text-2xl font-bold text-brand-purple">FeatureBox AI</span>
             </Link>
           </div>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-6">
-            <Link to="/" className="text-sm font-medium text-gray-300 hover:text-[#5145FF] transition-colors">
+            <Link to="/" className="text-sm font-medium text-gray-300 hover:text-brand-purple transition-colors font-inter">
               Case Study
             </Link>
-            <Link to="/" className="text-sm font-medium text-gray-300 hover:text-[#5145FF] transition-colors">
+            <Link to="/" className="text-sm font-medium text-gray-300 hover:text-brand-purple transition-colors font-inter">
               Vision
             </Link>
-            <Link to="/" className="text-sm font-medium text-gray-300 hover:text-[#5145FF] transition-colors">
+            <Link to="/" className="text-sm font-medium text-gray-300 hover:text-brand-purple transition-colors font-inter">
               Team
             </Link>
             <Button 
               variant="default" 
-              className="bg-[#5145FF] hover:bg-indigo-600 text-white rounded-md"
+              className="bg-brand-purple hover:bg-brand-purpleLight text-white rounded-md font-inter"
             >
               Request Demo
             </Button>
@@ -65,19 +65,19 @@ const Navbar = () => {
       {isMobileMenuOpen && (
         <div className="md:hidden bg-black shadow-lg">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-            <Link to="/" className="block px-3 py-2 text-base font-medium text-gray-300 hover:text-[#5145FF] hover:bg-gray-900 rounded-md">
+            <Link to="/" className="block px-3 py-2 text-base font-medium text-gray-300 hover:text-brand-purple hover:bg-gray-900 rounded-md font-inter">
               Case Study
             </Link>
-            <Link to="/" className="block px-3 py-2 text-base font-medium text-gray-300 hover:text-[#5145FF] hover:bg-gray-900 rounded-md">
+            <Link to="/" className="block px-3 py-2 text-base font-medium text-gray-300 hover:text-brand-purple hover:bg-gray-900 rounded-md font-inter">
               Vision
             </Link>
-            <Link to="/" className="block px-3 py-2 text-base font-medium text-gray-300 hover:text-[#5145FF] hover:bg-gray-900 rounded-md">
+            <Link to="/" className="block px-3 py-2 text-base font-medium text-gray-300 hover:text-brand-purple hover:bg-gray-900 rounded-md font-inter">
               Team
             </Link>
             <div className="px-3 py-2">
               <Button 
                 variant="default" 
-                className="w-full bg-[#5145FF] hover:bg-indigo-600 text-white rounded-md"
+                className="w-full bg-brand-purple hover:bg-brand-purpleLight text-white rounded-md font-inter"
               >
                 Request Demo
               </Button>

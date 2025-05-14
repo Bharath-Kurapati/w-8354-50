@@ -1,7 +1,6 @@
 
 import PageLayout from '@/components/PageLayout';
 import Hero from '@/components/Hero';
-import SocialProof from '@/components/SocialProof';
 import PainPoints from '@/components/PainPoints';
 import WorkflowSteps from '@/components/WorkflowSteps';
 import Features from '@/components/Features';
@@ -12,6 +11,7 @@ import PricingTeaser from '@/components/PricingTeaser';
 import SecurityBanner from '@/components/SecurityBanner';
 import CTABanner from '@/components/CTABanner';
 import SEO from '@/components/SEO';
+import MagicExperience from '@/components/MagicExperience';
 
 const Index = () => {
   return (
@@ -22,9 +22,10 @@ const Index = () => {
         imageUrl="/lovable-uploads/48ecf6e2-5a98-4a9d-af6f-ae2265cd4098.png"
       />
       <Hero />
+      <MagicExperience />
       <PainPoints />
-      <WorkflowSteps />
       <Features />
+      <WorkflowSteps />
       <Personas />
       <CaseStudy />
       <Traction />
