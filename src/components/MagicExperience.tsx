@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { Check } from 'lucide-react';
+import { Plug, Brush as Broom, TrendingUp, Lightbulb } from 'lucide-react';
 
 const MagicExperience = () => {
   const features = [
@@ -62,35 +63,38 @@ const MagicExperience = () => {
             </a>
           </div>
           
-          {/* Right Column - GIF/Visual */}
+          {/* Right Column - Visual representation based on reference image */}
           <div className="visual-column">
             <div className="w-full md:w-[480px] h-[340px] rounded-lg shadow-[0_4px_12px_rgba(0,0,0,0.4)] overflow-hidden">
-              {/* This would be replaced with an actual GIF */}
               <div className="w-full h-full bg-dark-card flex flex-col items-center justify-center p-6">
-                <div className="text-center space-y-4">
-                  <div className="mb-4 space-y-4">
-                    <p className="text-gray-400 font-inter">[Animation Frame 1: Grey whirlwind of spreadsheets & code]</p>
-                    <p className="text-white font-bold">OLD</p>
+                <div className="text-center space-y-6">
+                  {/* First frame - Grey whirlwind (OLD) */}
+                  <div className="mb-4">
+                    <p className="text-gray-400 font-inter mb-2">[Animation Frame 1: Grey whirlwind of spreadsheets & code]</p>
+                    <p className="text-white text-2xl font-bold">OLD</p>
                   </div>
                   
-                  <div className="mb-4">
+                  {/* Second frame - 4-icon ribbon */}
+                  <div className="mb-6">
                     <p className="text-gray-400 font-inter">[Animation Frame 2: 4-icon ribbon with Connector, Cleaner, Forecaster, Insights]</p>
                   </div>
                   
-                  <div className="flex justify-center gap-4 mb-4">
-                    <div className="bg-brand-purple/20 px-4 py-2 rounded-full">
+                  {/* Third frame - KPI badges */}
+                  <div className="flex justify-center gap-6 mb-6">
+                    <div className="bg-indigo-900/70 px-5 py-2 rounded-full">
                       <p className="text-white font-inter font-bold">2X accuracy</p>
                     </div>
-                    <div className="bg-brand-jade/20 px-4 py-2 rounded-full">
+                    <div className="bg-brand-jade/30 px-5 py-2 rounded-full">
                       <p className="text-white font-inter font-bold">90% less work</p>
                     </div>
                   </div>
                   
+                  {/* Fourth frame - Go live message */}
                   <div className="flex items-center justify-center">
-                    <div className="h-8 w-8 rounded-full bg-brand-jade flex items-center justify-center mr-2">
-                      <Check className="h-5 w-5 text-white" />
+                    <div className="h-10 w-10 rounded-full bg-brand-jade flex items-center justify-center mr-3">
+                      <Check className="h-6 w-6 text-white" />
                     </div>
-                    <p className="text-white font-inter font-bold">Go live in days</p>
+                    <p className="text-white font-inter font-bold text-xl">Go live in days</p>
                   </div>
                 </div>
               </div>

@@ -16,7 +16,7 @@ const Hero = () => {
             {' '}accuracy—in 90% less time.
           </h1>
           <p className="text-lg text-gray-300 mb-8 font-inter font-normal max-w-3xl mx-auto">
-            Mid-market CPG planners reclaim hundreds of hours and cut inventory errors in half.
+            Mid-market CPG planners reclaim hundreds of hours and reclaim up to 45% of their revenue.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 
