@@ -10,7 +10,6 @@ import CTABanner from '@/components/CTABanner';
 import SEO from '@/components/SEO';
 import VisionProducts from '@/components/VisionProducts';
 import SocialProof from '@/components/SocialProof';
-import WorkflowComparison from '@/components/WorkflowComparison';
 
 const Index = () => {
   return (
@@ -22,7 +21,6 @@ const Index = () => {
       />
       <Hero />
       <MagicExperience />
-      <WorkflowComparison />
       <Benefits />
       <VisionProducts />
       <CaseStudy />

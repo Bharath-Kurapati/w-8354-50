@@ -12,7 +12,7 @@ const Footer = () => {
           <div>
             <h3 className="text-white text-lg font-bold mb-4">FeatureBox AI</h3>
             <p className="mb-4 text-sm">
-              Building the AI operating system for supply chain teams.
+              Cutting-edge inventory forecasting for CPG brands.
             </p>
           </div>
           <div>
