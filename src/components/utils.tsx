@@ -1,6 +1,6 @@
 
 // Import icons from lucide-react
-import { Cpu, Server, Database, BrainCircuit, Cloud, Rocket, ShoppingCart, Package, Receipt } from "lucide-react";
+import { Cpu, Server, Database, BrainCircuit, Cloud, Rocket, ShoppingCart, Package, Receipt, Plug, Broom, TrendingUp, Lightbulb } from "lucide-react";
 
 // Export icons so they can be used in other components
-export { Cpu, Server, Database, BrainCircuit, Cloud, Rocket, ShoppingCart, Package, Receipt };
+export { Cpu, Server, Database, BrainCircuit, Cloud, Rocket, ShoppingCart, Package, Receipt, Plug, Broom, TrendingUp, Lightbulb };

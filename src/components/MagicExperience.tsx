@@ -6,7 +6,7 @@ const MagicExperience = () => {
   const features = [
     {
       icon: "Connect",
-      description: "Direct pipe to your ERP & storefronts (no CSV hell)."
+      description: "Your ERP & storefronts data drop or direct connections."
     },
     {
       icon: "Clean",
@@ -14,11 +14,11 @@ const MagicExperience = () => {
     },
     {
       icon: "Forecast",
-      description: "Ensemble models pick the best fit for every SKU."
+      description: "AI orchestrator cooks up the magic."
     },
     {
       icon: "Explain",
-      description: "LLM turns spikes & dips into plain-English insights."
+      description: "LLM turns spikes & dips into plain-English insights. Narrative ready for your teams."
     }
   ];
 

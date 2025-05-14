@@ -2,7 +2,6 @@
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { Play } from 'lucide-react';
-import WorkflowComparison from './WorkflowComparison';
 
 const Hero = () => {
   return (
@@ -33,12 +32,6 @@ const Hero = () => {
             >
               <Play className="mr-2 h-4 w-4" /> Watch 90-sec demo
             </Button>
-          </div>
-        </div>
-
-        <div className="relative mt-16 mx-auto max-w-5xl">
-          <div className="glass-effect p-8 rounded-xl">
-            <WorkflowComparison />
           </div>
         </div>
       </div>
