@@ -11,7 +11,7 @@ const CTABanner = () => {
             Ready to get started?
           </h2>
           <a 
-            href="mailto:bharath_kurapati@berkeley.edu"
+            href="https://docs.google.com/forms/d/1QGD_VkNt4dabo6F7wgrBmqj6Ozc-pkm_JAzpEUeJUtw/edit"
             target="_blank"
             rel="noopener noreferrer"
           >

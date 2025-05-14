@@ -19,7 +19,7 @@ const Hero = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <a 
-              href="https://docs.google.com/forms/d/1M8mLRNY8hshQQJLdalk41DxY7chAzhC_0L8uy_y7Jhc/edit?pli=1"
+              href="https://docs.google.com/forms/d/1M8mLRNY8hshQQJLdalk41DxY7chAzhC_0L8uy_y7Jhc"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -27,7 +27,7 @@ const Hero = () => {
                 size="lg" 
                 className="bg-brand-purple hover:bg-brand-purpleLight text-white rounded-md px-8 hover:translate-y-[-2px] transition-all font-inter"
               >
-                Sign up for a pilot today
+                Sign Up For A Pilot
               </Button>
             </a>
           </div>

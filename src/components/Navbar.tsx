@@ -27,7 +27,9 @@ const Navbar = () => {
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center">
             <Link to="/" className="flex items-center">
-              <img src="/lovable-uploads/7fd38d18-a5d9-498b-8fd4-418f32b5ca22.png" alt="FeatureBox AI" className="h-8 mr-2 font-extrabold bg-black" />
+              <div className="bg-black flex items-center justify-center">
+                <img src="/lovable-uploads/7fd38d18-a5d9-498b-8fd4-418f32b5ca22.png" alt="FeatureBox AI" className="h-8 mr-2" />
+              </div>
               <span className="text-2xl font-bold text-brand-purple">FeatureBox AI</span>
             </Link>
           </div>
@@ -44,7 +46,7 @@ const Navbar = () => {
               Team
             </Link>
             <a 
-              href="mailto:bharath_kurapati@berkeley.edu"
+              href="https://docs.google.com/forms/d/1QGD_VkNt4dabo6F7wgrBmqj6Ozc-pkm_JAzpEUeJUtw/edit"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -82,7 +84,7 @@ const Navbar = () => {
             </Link>
             <div className="px-3 py-2">
               <a 
-                href="mailto:bharath_kurapati@berkeley.edu"
+                href="https://docs.google.com/forms/d/1QGD_VkNt4dabo6F7wgrBmqj6Ozc-pkm_JAzpEUeJUtw/edit"
                 target="_blank"
                 rel="noopener noreferrer"
               >

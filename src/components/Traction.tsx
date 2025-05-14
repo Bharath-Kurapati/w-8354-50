@@ -12,6 +12,18 @@ const Traction = () => {
           <p className="text-gray-300 mb-8 text-lg">
             Join our growing list of innovative brands that are leveraging AI to make smarter inventory decisions with our forecasting product.
           </p>
+          <a 
+            href="https://docs.google.com/forms/d/1M8mLRNY8hshQQJLdalk41DxY7chAzhC_0L8uy_y7Jhc"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-4 inline-block"
+          >
+            <Button
+              className="bg-brand-purple hover:bg-brand-purpleLight text-white rounded-md px-8 hover:translate-y-[-2px] transition-all"
+            >
+              Sign Up For A Pilot
+            </Button>
+          </a>
         </div>
       </div>
     </section>
