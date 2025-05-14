@@ -27,7 +27,7 @@ const Navbar = () => {
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center">
             <Link to="/" className="flex items-center">
-              <img src="/lovable-uploads/7fd38d18-a5d9-498b-8fd4-418f32b5ca22.png" alt="FeatureBox AI" className="h-8 mr-2" />
+              <img src="/lovable-uploads/7fd38d18-a5d9-498b-8fd4-418f32b5ca22.png" alt="FeatureBox AI" className="h-8 mr-2 font-extrabold bg-black" />
               <span className="text-2xl font-bold text-brand-purple">FeatureBox AI</span>
             </Link>
           </div>
@@ -43,12 +43,18 @@ const Navbar = () => {
             <Link to="/" className="text-sm font-medium text-gray-300 hover:text-brand-purple transition-colors font-inter">
               Team
             </Link>
-            <Button 
-              variant="default" 
-              className="bg-brand-purple hover:bg-brand-purpleLight text-white rounded-md font-inter"
+            <a 
+              href="mailto:bharath_kurapati@berkeley.edu"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              Request Demo
-            </Button>
+              <Button 
+                variant="default" 
+                className="bg-brand-purple hover:bg-brand-purpleLight text-white rounded-md font-inter"
+              >
+                Request Demo
+              </Button>
+            </a>
           </nav>
 
           {/* Mobile menu button */}
@@ -75,12 +81,18 @@ const Navbar = () => {
               Team
             </Link>
             <div className="px-3 py-2">
-              <Button 
-                variant="default" 
-                className="w-full bg-brand-purple hover:bg-brand-purpleLight text-white rounded-md font-inter"
+              <a 
+                href="mailto:bharath_kurapati@berkeley.edu"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                Request Demo
-              </Button>
+                <Button 
+                  variant="default" 
+                  className="w-full bg-brand-purple hover:bg-brand-purpleLight text-white rounded-md font-inter"
+                >
+                  Request Demo
+                </Button>
+              </a>
             </div>
           </div>
         </div>

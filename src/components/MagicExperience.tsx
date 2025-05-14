@@ -53,13 +53,6 @@ const MagicExperience = () => {
                 </div>
               ))}
             </div>
-            
-            <a 
-              href="#" 
-              className="inline-block mt-6 text-sm text-brand-jade hover:underline font-inter"
-            >
-              See it in action ↗
-            </a>
           </div>
           
           {/* Right Column - Stats displayed vertically */}

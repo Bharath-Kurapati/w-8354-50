@@ -1,7 +1,6 @@
 
 import React from 'react';
 import { Button } from '@/components/ui/button';
-import { Play } from 'lucide-react';
 
 const Hero = () => {
   return (
@@ -13,18 +12,24 @@ const Hero = () => {
             <span className="text-gradient inline-block">
               2X
             </span>
-            {' '}accuracy—in 90% less effort.
+            {' '}accuracy with 90% less effort.
           </h1>
           <p className="text-lg text-gray-300 mb-8 font-inter font-normal max-w-3xl mx-auto">
             Mid-market CPG planners reclaim hundreds of hours and reclaim up to 45% of their revenue.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button 
-              size="lg" 
-              className="bg-brand-purple hover:bg-brand-purpleLight text-white rounded-md px-8 hover:translate-y-[-2px] transition-all font-inter"
+            <a 
+              href="https://docs.google.com/forms/d/1M8mLRNY8hshQQJLdalk41DxY7chAzhC_0L8uy_y7Jhc/edit?pli=1"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              Sign up for a pilot
-            </Button>
+              <Button 
+                size="lg" 
+                className="bg-brand-purple hover:bg-brand-purpleLight text-white rounded-md px-8 hover:translate-y-[-2px] transition-all font-inter"
+              >
+                Sign up for a pilot today
+              </Button>
+            </a>
           </div>
         </div>
       </div>

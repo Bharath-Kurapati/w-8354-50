@@ -10,12 +10,18 @@ const CTABanner = () => {
           <h2 className="text-3xl font-bold mb-6">
             Ready to get started?
           </h2>
-          <Button 
-            size="lg" 
-            className="bg-[#00B37E] hover:bg-emerald-600 text-white rounded-md px-8 hover:translate-y-[-2px] transition-all"
+          <a 
+            href="mailto:bharath_kurapati@berkeley.edu"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            Request Demo
-          </Button>
+            <Button 
+              size="lg" 
+              className="bg-[#00B37E] hover:bg-emerald-600 text-white rounded-md px-8 hover:translate-y-[-2px] transition-all"
+            >
+              Request Demo
+            </Button>
+          </a>
           <p className="mt-4 text-gray-600 text-sm">
             Let's slash inventory waste →
           </p>
