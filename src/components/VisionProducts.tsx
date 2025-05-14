@@ -8,7 +8,7 @@ const VisionProducts = () => {
     {
       icon: <FileBarChart2 className="h-10 w-10 text-indigo-600" />,
       title: "Scenario Planning",
-      description: "Run n-number of scenarios in your business with AI to make decisions easier. Simulate market conditions, test strategies, and optimize outcomes with confidence."
+      description: "Run n-number of scenarios in your business with AI to make decisions faster, simulate market conditions, test strategies, and optimize outcomes with confidence - from tariffs to capital allocation."
     },
     {
       icon: <Lightbulb className="h-10 w-10 text-amber-500" />,
@@ -25,7 +25,7 @@ const VisionProducts = () => {
             Coming Soon
           </h2>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-            The future of AI-powered inventory management
+            We are building the Operating System of decision making for Supply Chain teams
           </p>
         </div>
 

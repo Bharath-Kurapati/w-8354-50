@@ -5,7 +5,6 @@ import MagicExperience from '@/components/MagicExperience';
 import Benefits from '@/components/Benefits';
 import CaseStudy from '@/components/CaseStudy';
 import Traction from '@/components/Traction';
-import PricingTeaser from '@/components/PricingTeaser';
 import SecurityBanner from '@/components/SecurityBanner';
 import CTABanner from '@/components/CTABanner';
 import SEO from '@/components/SEO';
@@ -25,7 +24,6 @@ const Index = () => {
       <VisionProducts />
       <CaseStudy />
       <Traction />
-      <PricingTeaser />
       <SecurityBanner />
       <CTABanner />
     </PageLayout>

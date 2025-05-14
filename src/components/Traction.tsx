@@ -1,26 +1,23 @@
 
 import React from 'react';
+import { Button } from '@/components/ui/button';
+import { Link } from 'react-router-dom';
 
 const Traction = () => {
-  const metrics = [
-    { value: "100+", label: "Customer interviews" },
-    { value: "4", label: "Pilot programs" },
-    { value: "$60K", label: "ARR pipeline in < 2 months" },
-    { value: "$1.5M", label: "On track for ARR" }
-  ];
-
   return (
-    <section className="py-12">
+    <section className="py-12 bg-gray-50">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="max-w-5xl mx-auto">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
-            {metrics.map((metric, index) => (
-              <div key={index} className="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
-                <div className="text-3xl font-bold text-indigo-600 mb-2">{metric.value}</div>
-                <div className="text-gray-600 text-sm">{metric.label}</div>
-              </div>
-            ))}
-          </div>
+        <div className="max-w-5xl mx-auto text-center">
+          <h3 className="text-2xl font-bold mb-6">Ready to transform your supply chain?</h3>
+          <p className="text-gray-700 mb-8 text-lg">
+            Join our growing list of innovative brands that are leveraging AI to make smarter inventory decisions.
+          </p>
+          <Button 
+            className="bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-6 text-lg h-auto"
+            asChild
+          >
+            <Link to="/contact">Request A Demo</Link>
+          </Button>
         </div>
       </div>
     </section>

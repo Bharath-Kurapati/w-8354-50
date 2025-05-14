@@ -2,6 +2,8 @@
 import React from 'react';
 import { AspectRatio } from '@/components/ui/aspect-ratio';
 import { Badge } from '@/components/ui/badge';
+import { Button } from '@/components/ui/button';
+import { Link } from 'react-router-dom';
 
 const CaseStudy = () => {
   return (
@@ -18,7 +20,7 @@ const CaseStudy = () => {
           <div>
             <div className="mb-8">
               <blockquote className="text-xl italic mb-4">
-                "FeatureBox AI cut our forecasting time by 95% while doubling our accuracy. We've been able to reduce safety stock levels without experiencing stockouts."
+                "Our early pilot partners are seeing dramatic improvements in forecasting accuracy and significant time savings in their inventory planning processes."
               </blockquote>
               <div className="flex items-center">
                 <div className="mr-4">
@@ -26,15 +28,15 @@ const CaseStudy = () => {
                     <AspectRatio ratio={1 / 1}>
                       <img
                         src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&h=200&fit=crop&auto=format"
-                        alt="Supply Chain Manager at Herb Pharm"
+                        alt="Supply Chain Manager"
                         className="object-cover"
                       />
                     </AspectRatio>
                   </div>
                 </div>
                 <div>
-                  <p className="font-medium">John Smith</p>
-                  <p className="text-gray-400 text-sm">Supply Chain Manager, Herb Pharm</p>
+                  <p className="font-medium">Supply Chain Manager</p>
+                  <p className="text-gray-400 text-sm">CPG Brand</p>
                 </div>
               </div>
             </div>
@@ -49,15 +51,13 @@ const CaseStudy = () => {
               <div className="text-emerald-400 text-4xl font-bold mb-2">95%</div>
               <p className="text-gray-300">Time saved on inventory planning process</p>
             </div>
-            <div className="bg-gray-800 rounded-lg p-6">
-              <div className="text-emerald-400 text-4xl font-bold mb-2">$55M</div>
-              <p className="text-gray-300">Revenue of brand using our solution</p>
-            </div>
-            <div className="bg-gray-800 rounded-lg p-6">
-              <div className="flex flex-wrap gap-2 mb-2">
-                <Badge className="bg-indigo-600">Live Since</Badge>
-              </div>
-              <p className="text-gray-300">April 2025</p>
+            <div className="col-span-1 sm:col-span-2 flex justify-center mt-4">
+              <Button 
+                className="bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-6 text-lg h-auto"
+                asChild
+              >
+                <Link to="/contact">Sign Up For A Pilot Today</Link>
+              </Button>
             </div>
           </div>
         </div>
