@@ -10,7 +10,7 @@ const Hero = () => {
         <div className="text-center mb-12">
           <h1 className="text-4xl md:text-5xl font-inter font-extrabold leading-tight tracking-tight mb-6 text-white">
             Forecast inventory with{' '}
-            <span className="text-gradient inline-block">
+            <span className="bg-gradient-to-r from-teal-400 to-indigo-500 bg-clip-text text-transparent inline-block">
               2X
             </span>
             {' '}accuracy—in 90% less time.
@@ -21,7 +21,7 @@ const Hero = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button 
               size="lg" 
-              className="bg-brand-purple hover:bg-brand-purpleLight text-white rounded-md px-8 hover:translate-y-[-2px] transition-all font-inter"
+              className="bg-teal-600 hover:bg-teal-500 text-white rounded-md px-8 hover:translate-y-[-2px] transition-all font-inter"
             >
               Get my forecast
             </Button>
@@ -30,7 +30,7 @@ const Hero = () => {
               <Button 
                 variant="ghost" 
                 size="sm" 
-                className="text-brand-purple hover:bg-brand-purple/10 flex items-center"
+                className="text-teal-400 hover:bg-teal-600/10 flex items-center"
               >
                 <Play className="mr-2 h-4 w-4" /> Watch 90-sec demo
               </Button>
