@@ -1,7 +1,6 @@
 
 import React from 'react';
 import { Check } from 'lucide-react';
-import { Plug, Brush as Broom, TrendingUp, Lightbulb } from 'lucide-react';
 
 const MagicExperience = () => {
   const features = [
@@ -63,34 +62,23 @@ const MagicExperience = () => {
             </a>
           </div>
           
-          {/* Right Column - Visual representation based on reference image */}
+          {/* Right Column - Stats displayed vertically */}
           <div className="visual-column">
             <div className="w-full md:w-[480px] h-[340px] rounded-lg shadow-[0_4px_12px_rgba(0,0,0,0.4)] overflow-hidden">
               <div className="w-full h-full bg-dark-card flex flex-col items-center justify-center p-6">
-                <div className="text-center">
-                  {/* First frame - Grey whirlwind (OLD) */}
-                  <div className="mb-6">
-                    <p className="text-gray-400 font-inter mb-2">[Animation Frame 1: Grey whirlwind of spreadsheets & code]</p>
-                    <p className="text-white text-2xl font-bold">OLD</p>
+                {/* Key stats in vertical layout */}
+                <div className="flex flex-col space-y-4 w-full max-w-[320px]">
+                  <div className="bg-indigo-900/70 px-4 py-3 rounded-full">
+                    <p className="text-white font-inter font-bold text-center">2X accuracy</p>
                   </div>
-                  
-                  {/* Second frame - 4-icon ribbon */}
-                  <div className="mb-8">
-                    <p className="text-gray-400 font-inter">[Animation Frame 2: 4-icon ribbon with Connector, Cleaner, Forecaster, Insights]</p>
+                  <div className="bg-brand-jade/30 px-4 py-3 rounded-full">
+                    <p className="text-white font-inter font-bold text-center">90% less work</p>
                   </div>
-                  
-                  {/* Key stats in badges */}
-                  <div className="grid grid-cols-2 gap-4 mb-6">
-                    <div className="bg-indigo-900/70 px-4 py-3 rounded-full">
-                      <p className="text-white font-inter font-bold">2X accuracy</p>
-                    </div>
-                    <div className="bg-brand-jade/30 px-4 py-3 rounded-full">
-                      <p className="text-white font-inter font-bold">90% less work</p>
-                    </div>
-                    <div className="bg-[#FF9F40]/30 px-4 py-3 rounded-full">
-                      <p className="text-white font-inter font-bold">Up to 45% more revenue</p>
-                    </div>
-                    <div className="flex items-center justify-center bg-brand-purple/30 px-4 py-3 rounded-full">
+                  <div className="bg-[#FF9F40]/30 px-4 py-3 rounded-full">
+                    <p className="text-white font-inter font-bold text-center">Up to 45% more revenue</p>
+                  </div>
+                  <div className="bg-brand-purple/30 px-4 py-3 rounded-full">
+                    <div className="flex items-center justify-center">
                       <div className="h-6 w-6 rounded-full bg-brand-jade flex items-center justify-center mr-2">
                         <Check className="h-4 w-4 text-white" />
                       </div>

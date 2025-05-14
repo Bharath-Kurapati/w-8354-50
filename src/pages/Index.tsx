@@ -1,7 +1,6 @@
 
 import PageLayout from '@/components/PageLayout';
 import Hero from '@/components/Hero';
-import PainPoints from '@/components/PainPoints';
 import WorkflowSteps from '@/components/WorkflowSteps';
 import Features from '@/components/Features';
 import Personas from '@/components/Personas';
@@ -24,7 +23,6 @@ const Index = () => {
       />
       <Hero />
       <MagicExperience />
-      <PainPoints />
       <Benefits />
       <Features />
       <WorkflowSteps />
