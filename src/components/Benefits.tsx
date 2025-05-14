@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { ShoppingCart, Cube, DollarSign } from 'lucide-react';
+import { ShoppingCart, Box, DollarSign } from 'lucide-react';
 
 const Benefits = () => {
   const benefits = [
@@ -12,7 +12,7 @@ const Benefits = () => {
     },
     {
       title: "Free working capital",
-      icon: <Cube className="h-6 w-6 text-white" />,
+      icon: <Box className="h-6 w-6 text-white" />,
       color: "#FF9F40", // Amber
       description: "Slash overstock so cash isn't frozen in the warehouse."
     },
