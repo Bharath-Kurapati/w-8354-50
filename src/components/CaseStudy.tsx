@@ -52,12 +52,18 @@ const CaseStudy = () => {
               <p className="text-gray-300">Time saved on forecasting workflow</p>
             </div>
             <div className="col-span-1 sm:col-span-2 flex justify-center mt-4">
+               <a 
+              href="https://docs.google.com/forms/d/1M8mLRNY8hshQQJLdalk41DxY7chAzhC_0L8uy_y7Jhc"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Button 
                 className="bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-6 text-lg h-auto"
                 asChild
               >
-                <Link to="/contact">Sign Up For A Pilot Today</Link>
+                Sign Up For A Pilot
               </Button>
+              </a>
             </div>
           </div>
         </div>
