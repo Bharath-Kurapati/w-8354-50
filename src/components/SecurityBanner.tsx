@@ -10,15 +10,15 @@ const SecurityBanner = () => {
           <h3 className="text-lg font-semibold mb-6 text-white">Security & Integrations</h3>
           <div className="flex flex-wrap justify-center gap-8">
             <div className="flex items-center">
-              <Shield className="h-5 w-5 text-indigo-400 mr-2" />
+              <Shield className="h-5 w-5 text-brand-purple mr-2" />
               <span className="text-gray-300">Built on SOC-2-ready GCP</span>
             </div>
             <div className="flex items-center">
-              <Database className="h-5 w-5 text-indigo-400 mr-2" />
+              <Database className="h-5 w-5 text-brand-purple mr-2" />
               <span className="text-gray-300">Trustworthy AI models only</span>
             </div>
             <div className="flex items-center">
-              <Lock className="h-5 w-5 text-indigo-400 mr-2" />
+              <Lock className="h-5 w-5 text-brand-purple mr-2" />
               <span className="text-gray-300">Integrations coming with several ERP systems</span>
             </div>
           </div>
