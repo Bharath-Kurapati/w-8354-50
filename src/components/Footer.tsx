@@ -3,52 +3,61 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
+
   return (
-    <footer className="bg-[#121212] text-gray-400 py-12">
-      <div className="container mx-auto px-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
+    <footer className="bg-gray-900 text-gray-300 pt-16 pb-8">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <div>
-            <Link to="/" className="flex items-center mb-4">
-              <img src="/lovable-uploads/7fd38d18-a5d9-498b-8fd4-418f32b5ca22.png" alt="FeatureBox AI" className="h-8 mr-3" />
-              <span className="text-xl font-bold text-white">FeatureBox AI</span>
-            </Link>
-            <p className="text-sm">Building the AI operating system for supply chain teams</p>
+            <h3 className="text-white text-lg font-bold mb-4">FeatureBox AI</h3>
+            <p className="mb-4 text-sm">
+              Cutting-edge inventory forecasting for CPG brands.
+            </p>
           </div>
-          
           <div>
-            <h3 className="text-white font-semibold mb-4">Product</h3>
-            <ul className="space-y-2">
+            <h4 className="text-white font-semibold mb-4">Product</h4>
+            <ul className="space-y-2 text-sm">
               <li><Link to="/" className="hover:text-white transition-colors">Features</Link></li>
-              <li><Link to="/" className="hover:text-white transition-colors">Case Studies</Link></li>
+              <li><Link to="/" className="hover:text-white transition-colors">How it works</Link></li>
+              <li><Link to="/" className="hover:text-white transition-colors">Integrations</Link></li>
               <li><Link to="/" className="hover:text-white transition-colors">Pricing</Link></li>
             </ul>
           </div>
-          
           <div>
-            <h3 className="text-white font-semibold mb-4">Company</h3>
-            <ul className="space-y-2">
-              <li><Link to="/about" className="hover:text-white transition-colors">About</Link></li>
-              <li><Link to="/blog" className="hover:text-white transition-colors">Blog</Link></li>
-              <li><Link to="/careers" className="hover:text-white transition-colors">Careers</Link></li>
+            <h4 className="text-white font-semibold mb-4">Resources</h4>
+            <ul className="space-y-2 text-sm">
+              <li><Link to="/" className="hover:text-white transition-colors">Case Studies</Link></li>
+              <li><Link to="/" className="hover:text-white transition-colors">Blog</Link></li>
+              <li><Link to="/" className="hover:text-white transition-colors">Documentation</Link></li>
+              <li><Link to="/" className="hover:text-white transition-colors">FAQs</Link></li>
             </ul>
           </div>
-          
           <div>
-            <h3 className="text-white font-semibold mb-4">Legal</h3>
-            <ul className="space-y-2">
-              <li><Link to="/privacy-policy" className="hover:text-white transition-colors">Privacy Policy</Link></li>
-              <li><Link to="/" className="hover:text-white transition-colors">Terms of Service</Link></li>
-              <li><Link to="/" className="hover:text-white transition-colors">Cookie Policy</Link></li>
+            <h4 className="text-white font-semibold mb-4">Contact</h4>
+            <ul className="space-y-2 text-sm">
+              <li>
+                <a 
+                  href="mailto:bharath_kurapati@berkeley.edu" 
+                  className="hover:text-white transition-colors"
+                >
+                  bharath_kurapati@berkeley.edu
+                </a>
+              </li>
+              <li><Link to="/" className="hover:text-white transition-colors">Contact sales</Link></li>
+              <li><Link to="/" className="hover:text-white transition-colors">Support</Link></li>
             </ul>
           </div>
         </div>
-        
-        <div className="pt-8 border-t border-gray-800">
+        <div className="border-t border-gray-800 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="text-sm mb-4 md:mb-0">© {new Date().getFullYear()} FeatureBox AI. All rights reserved.</p>
-            <div className="flex space-x-6">
-              <Link to="/" className="hover:text-white transition-colors">Twitter</Link>
-              <Link to="/" className="hover:text-white transition-colors">LinkedIn</Link>
+            <p className="text-sm">
+              &copy; {currentYear} FeatureBox AI. All rights reserved.
+            </p>
+            <div className="mt-4 md:mt-0 flex space-x-4 text-sm">
+              <Link to="/" className="hover:text-white transition-colors">Terms</Link>
+              <Link to="/" className="hover:text-white transition-colors">Privacy</Link>
+              <Link to="/" className="hover:text-white transition-colors">Cookies</Link>
             </div>
           </div>
         </div>
