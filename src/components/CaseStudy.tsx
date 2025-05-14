@@ -20,7 +20,7 @@ const CaseStudy = () => {
           <div>
             <div className="mb-8">
               <blockquote className="text-xl italic mb-4">
-                "Our early pilot partners are seeing dramatic improvements in forecasting accuracy and significant time savings in their inventory planning processes."
+                "I used to spend days every month trying to forecast our inventory needs. With FeatureBox, I can get better forecasts in just minutes and focus on making strategic decisions instead of crunching numbers."
               </blockquote>
               <div className="flex items-center">
                 <div className="mr-4">
@@ -49,7 +49,7 @@ const CaseStudy = () => {
             </div>
             <div className="bg-gray-800 rounded-lg p-6">
               <div className="text-emerald-400 text-4xl font-bold mb-2">95%</div>
-              <p className="text-gray-300">Time saved on inventory planning process</p>
+              <p className="text-gray-300">Time saved on forecasting workflow</p>
             </div>
             <div className="col-span-1 sm:col-span-2 flex justify-center mt-4">
               <Button 

@@ -10,14 +10,8 @@ const Traction = () => {
         <div className="max-w-5xl mx-auto text-center">
           <h3 className="text-2xl font-bold mb-6">Ready to transform your supply chain?</h3>
           <p className="text-gray-700 mb-8 text-lg">
-            Join our growing list of innovative brands that are leveraging AI to make smarter inventory decisions.
+            Join our growing list of innovative brands that are leveraging AI to make smarter inventory decisions with our forecasting product.
           </p>
-          <Button 
-            className="bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-6 text-lg h-auto"
-            asChild
-          >
-            <Link to="/contact">Request A Demo</Link>
-          </Button>
         </div>
       </div>
     </section>
