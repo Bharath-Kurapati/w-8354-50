@@ -1,17 +1,15 @@
 
 import PageLayout from '@/components/PageLayout';
 import Hero from '@/components/Hero';
-import WorkflowSteps from '@/components/WorkflowSteps';
-import Features from '@/components/Features';
-import Personas from '@/components/Personas';
+import MagicExperience from '@/components/MagicExperience';
+import Benefits from '@/components/Benefits';
 import CaseStudy from '@/components/CaseStudy';
 import Traction from '@/components/Traction';
 import PricingTeaser from '@/components/PricingTeaser';
 import SecurityBanner from '@/components/SecurityBanner';
 import CTABanner from '@/components/CTABanner';
 import SEO from '@/components/SEO';
-import MagicExperience from '@/components/MagicExperience';
-import Benefits from '@/components/Benefits';
+import VisionProducts from '@/components/VisionProducts';
 
 const Index = () => {
   return (
@@ -24,9 +22,7 @@ const Index = () => {
       <Hero />
       <MagicExperience />
       <Benefits />
-      <Features />
-      <WorkflowSteps />
-      <Personas />
+      <VisionProducts />
       <CaseStudy />
       <Traction />
       <PricingTeaser />
