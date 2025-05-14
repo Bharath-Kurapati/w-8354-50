@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
@@ -11,65 +10,35 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222 47% 11%;
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222 47% 11%;
+    --card: 240 10% 3.9%;
+    --card-foreground: 0 0% 98%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222 47% 11%;
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 0 0% 98%;
 
-    --primary: 240 75.4% 65.7%;
-    --primary-foreground: 0 0% 98%;
+    --primary: 0 0% 98%;
+    --primary-foreground: 240 5.9% 10%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222 47% 11%;
+    --secondary: 240 3.7% 15.9%;
+    --secondary-foreground: 0 0% 98%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215 16% 47%;
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 240 5% 64.9%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222 47% 11%;
+    --accent: 240 3.7% 15.9%;
+    --accent-foreground: 0 0% 98%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
 
-    --border: 214 32% 91%;
-    --input: 214 32% 91%;
-    --ring: 222 47% 11%;
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+    --ring: 240 4.9% 83.9%;
 
     --radius: 0.5rem;
-  }
-
-  .dark {
-    --background: 222 47% 11%;
-    --foreground: 210 40% 98%;
- 
-    --card: 222 47% 11%;
-    --card-foreground: 210 40% 98%;
- 
-    --popover: 222 47% 11%;
-    --popover-foreground: 210 40% 98%;
- 
-    --primary: 210 40% 98%;
-    --primary-foreground: 222 47% 11%;
- 
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
- 
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
- 
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
- 
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
- 
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
   }
 }
 
@@ -85,7 +54,7 @@
   }
 
   body {
-    @apply bg-white text-foreground;
+    @apply bg-dark-background text-foreground;
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -301,29 +270,25 @@
   animation: pulse-slow 4s ease-in-out infinite;
 }
 
-/* Light theme utilities */
-.bg-light {
-  @apply bg-[#F8FAFC];
+/* New dark theme utilities */
+.dark-card {
+  @apply bg-dark-card rounded-lg border border-dark-border shadow-md;
 }
 
-.bg-light-card {
-  @apply bg-white rounded-lg border border-gray-100 shadow-sm;
-}
-
-.light-gradient {
-  @apply bg-gradient-to-br from-white to-[#F8FAFC];
+.dark-gradient {
+  @apply bg-gradient-to-br from-[#1E1E1E] to-[#121212];
 }
 
 .accent-gradient {
-  @apply bg-gradient-to-r from-indigo-500 to-indigo-600;
+  @apply bg-gradient-to-r from-indigo-600 to-emerald-500;
 }
 
 .text-gradient {
-  @apply bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-indigo-500;
+  @apply bg-gradient-to-r from-[#5145FF] to-[#7165ff] bg-clip-text text-transparent;
 }
 
 .glass-effect {
-  @apply backdrop-blur-lg bg-white/90 border border-white/20;
+  @apply backdrop-blur-lg bg-white/5 border border-white/10;
 }
 
 /* New Inter font utilities */
@@ -337,6 +302,23 @@
 
 .font-weight-400 {
   font-weight: 400;
+}
+
+/* New colors based on the requirements */
+.text-indigo {
+  color: #5145FF;
+}
+
+.bg-indigo {
+  background-color: #5145FF;
+}
+
+.text-jade {
+  color: #00B37E;
+}
+
+.bg-jade {
+  background-color: #00B37E;
 }
 
 /* Modern layout utilities */
@@ -356,7 +338,7 @@
   @apply md:w-1/2 flex justify-center md:justify-end;
 }
 
-/* Card with soft radius */
-.feature-card {
-  @apply bg-white rounded-xl p-8 shadow-sm border border-gray-100;
+/* Dark card with soft radius */
+.dark-card-magic {
+  @apply bg-[#1E1E1E] rounded-lg p-8 shadow-lg;
 }

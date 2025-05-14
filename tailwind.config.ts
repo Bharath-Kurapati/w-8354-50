@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -64,10 +63,10 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				brand: {
-					purple: '#6366F1',
-					purpleLight: '#818CF8',
-					purpleDark: '#4F46E5',
-					jade: '#10B981'
+					purple: '#5145FF',
+					purpleLight: '#7165ff',
+					purpleDark: '#3d33cc',
+					jade: '#00B37E'
 				},
 				wrlds: {
 					teal: '#9F9EA1',
@@ -77,11 +76,11 @@ export default {
 					muted: '#F1F1F1'
 				},
 				dark: {
-					background: '#111827',
-					card: '#1F2937',
-					border: '#374151',
-					muted: '#4B5563',
-					highlight: '#6B7280'
+					background: '#121212',
+					card: '#1E1E1E',
+					border: '#2A2A2A',
+					muted: '#282828',
+					highlight: '#323232'
 				}
 			},
 			borderRadius: {

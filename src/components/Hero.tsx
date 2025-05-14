@@ -5,32 +5,32 @@ import { Play } from 'lucide-react';
 
 const Hero = () => {
   return (
-    <section className="pt-24 lg:pt-32 pb-16 overflow-hidden bg-[#F8FAFC]">
+    <section className="pt-24 lg:pt-32 pb-16 overflow-hidden bg-dark-background">
       <div className="container mx-auto px-8">
         <div className="text-center mb-12">
-          <h1 className="text-4xl md:text-5xl font-inter font-extrabold leading-tight tracking-tight mb-6 text-gray-900">
+          <h1 className="text-4xl md:text-5xl font-inter font-extrabold leading-tight tracking-tight mb-6 text-white">
             Forecast inventory with{' '}
-            <span className="text-indigo-600 inline-block">
+            <span className="bg-gradient-to-r from-teal-400 to-indigo-500 bg-clip-text text-transparent inline-block">
               2X
             </span>
             {' '}accuracy—in 90% less time.
           </h1>
-          <p className="text-lg text-gray-600 mb-8 font-inter font-normal max-w-3xl mx-auto">
+          <p className="text-lg text-gray-300 mb-8 font-inter font-normal max-w-3xl mx-auto">
             Mid-market CPG planners reclaim hundreds of hours and reclaim up to 45% of their revenue.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button 
               size="lg" 
-              className="bg-indigo-600 hover:bg-indigo-700 text-white rounded-md px-8 hover:translate-y-[-2px] transition-all font-inter"
+              className="bg-teal-600 hover:bg-teal-500 text-white rounded-md px-8 hover:translate-y-[-2px] transition-all font-inter"
             >
               Get my forecast
             </Button>
-            <div className="flex items-center text-gray-600">
+            <div className="flex items-center text-gray-400">
               <span className="mx-2 hidden sm:inline">or</span>
               <Button 
                 variant="ghost" 
                 size="sm" 
-                className="text-indigo-600 hover:bg-indigo-50 flex items-center"
+                className="text-teal-400 hover:bg-teal-600/10 flex items-center"
               >
                 <Play className="mr-2 h-4 w-4" /> Watch 90-sec demo
               </Button>

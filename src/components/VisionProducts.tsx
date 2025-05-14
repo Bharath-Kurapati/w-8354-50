@@ -18,13 +18,13 @@ const VisionProducts = () => {
   ];
 
   return (
-    <section className="py-20 bg-gradient-to-b from-white to-gray-50">
+    <section className="py-20 bg-gradient-to-b from-gray-900 to-black">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold mb-6 text-gray-900">
+          <h2 className="text-4xl font-bold mb-6 bg-gradient-to-r from-indigo-500 to-emerald-500 bg-clip-text text-transparent">
             Coming Soon
           </h2>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+          <p className="text-xl text-gray-300 max-w-2xl mx-auto">
             We are building the Operating System of decision making for Supply Chain teams
           </p>
         </div>
@@ -33,16 +33,16 @@ const VisionProducts = () => {
           {products.map((product, index) => (
             <Card 
               key={index}
-              className="bg-white border-gray-100 hover:border-indigo-100 transition-all duration-300 hover:shadow-lg overflow-hidden"
+              className="bg-gray-900/80 border border-gray-800 hover:border-indigo-500/40 transition-all duration-300 hover:shadow-xl hover:shadow-indigo-500/10 overflow-hidden"
             >
               <CardContent className="p-8">
-                <div className="mb-6 p-4 bg-gray-50 rounded-full w-fit">
+                <div className="mb-6 p-4 bg-gray-800/60 rounded-full w-fit">
                   {product.icon}
                 </div>
-                <h3 className="text-2xl font-semibold mb-4 text-gray-900">
+                <h3 className="text-2xl font-semibold mb-4 text-white">
                   {product.title}
                 </h3>
-                <p className="text-gray-600 leading-relaxed text-lg">
+                <p className="text-gray-300 leading-relaxed text-lg">
                   {product.description}
                 </p>
               </CardContent>
