@@ -12,6 +12,7 @@ import SecurityBanner from '@/components/SecurityBanner';
 import CTABanner from '@/components/CTABanner';
 import SEO from '@/components/SEO';
 import MagicExperience from '@/components/MagicExperience';
+import Benefits from '@/components/Benefits';
 
 const Index = () => {
   return (
@@ -24,6 +25,7 @@ const Index = () => {
       <Hero />
       <MagicExperience />
       <PainPoints />
+      <Benefits />
       <Features />
       <WorkflowSteps />
       <Personas />

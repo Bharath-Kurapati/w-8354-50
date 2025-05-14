@@ -67,34 +67,35 @@ const MagicExperience = () => {
           <div className="visual-column">
             <div className="w-full md:w-[480px] h-[340px] rounded-lg shadow-[0_4px_12px_rgba(0,0,0,0.4)] overflow-hidden">
               <div className="w-full h-full bg-dark-card flex flex-col items-center justify-center p-6">
-                <div className="text-center space-y-6">
+                <div className="text-center">
                   {/* First frame - Grey whirlwind (OLD) */}
-                  <div className="mb-4">
+                  <div className="mb-6">
                     <p className="text-gray-400 font-inter mb-2">[Animation Frame 1: Grey whirlwind of spreadsheets & code]</p>
                     <p className="text-white text-2xl font-bold">OLD</p>
                   </div>
                   
                   {/* Second frame - 4-icon ribbon */}
-                  <div className="mb-6">
+                  <div className="mb-8">
                     <p className="text-gray-400 font-inter">[Animation Frame 2: 4-icon ribbon with Connector, Cleaner, Forecaster, Insights]</p>
                   </div>
                   
-                  {/* Third frame - KPI badges */}
-                  <div className="flex justify-center gap-6 mb-6">
-                    <div className="bg-indigo-900/70 px-5 py-2 rounded-full">
+                  {/* Key stats in badges */}
+                  <div className="grid grid-cols-2 gap-4 mb-6">
+                    <div className="bg-indigo-900/70 px-4 py-3 rounded-full">
                       <p className="text-white font-inter font-bold">2X accuracy</p>
                     </div>
-                    <div className="bg-brand-jade/30 px-5 py-2 rounded-full">
+                    <div className="bg-brand-jade/30 px-4 py-3 rounded-full">
                       <p className="text-white font-inter font-bold">90% less work</p>
                     </div>
-                  </div>
-                  
-                  {/* Fourth frame - Go live message */}
-                  <div className="flex items-center justify-center">
-                    <div className="h-10 w-10 rounded-full bg-brand-jade flex items-center justify-center mr-3">
-                      <Check className="h-6 w-6 text-white" />
+                    <div className="bg-[#FF9F40]/30 px-4 py-3 rounded-full">
+                      <p className="text-white font-inter font-bold">Up to 45% more revenue</p>
                     </div>
-                    <p className="text-white font-inter font-bold text-xl">Go live in days</p>
+                    <div className="flex items-center justify-center bg-brand-purple/30 px-4 py-3 rounded-full">
+                      <div className="h-6 w-6 rounded-full bg-brand-jade flex items-center justify-center mr-2">
+                        <Check className="h-4 w-4 text-white" />
+                      </div>
+                      <p className="text-white font-inter font-bold">Go live in days</p>
+                    </div>
                   </div>
                 </div>
               </div>
