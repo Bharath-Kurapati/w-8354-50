@@ -31,7 +31,7 @@ const Navbar = () => {
                 <img 
                   src="/lovable-uploads/b5eadd34-1511-430f-92c4-8028dcfe204a.png" 
                   alt="FeatureBox AI" 
-                  className="h-10 w-auto mr-2" 
+                  className="h-12 w-auto mr-2" 
                 />
               </div>
               <span className="text-2xl font-bold text-brand-purple">FeatureBox AI</span>
