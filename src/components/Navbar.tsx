@@ -45,6 +45,9 @@ const Navbar = () => {
             <Link to="/" className="text-sm font-medium text-gray-300 hover:text-brand-purple transition-colors font-inter">
               Team
             </Link>
+            <Link to="/careers" className="text-sm font-medium text-gray-300 hover:text-brand-purple transition-colors font-inter">
+              Careers
+            </Link>
             <a 
               href="https://docs.google.com/forms/d/1QGD_VkNt4dabo6F7wgrBmqj6Ozc-pkm_JAzpEUeJUtw/edit"
               target="_blank"
@@ -81,6 +84,9 @@ const Navbar = () => {
             </Link>
             <Link to="/" className="block px-3 py-2 text-base font-medium text-gray-300 hover:text-brand-purple hover:bg-gray-900 rounded-md font-inter">
               Team
+            </Link>
+            <Link to="/careers" className="block px-3 py-2 text-base font-medium text-gray-300 hover:text-brand-purple hover:bg-gray-900 rounded-md font-inter">
+              Careers
             </Link>
             <div className="px-3 py-2">
               <a 
