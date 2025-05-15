@@ -27,8 +27,8 @@ const Navbar = () => {
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center">
             <Link to="/" className="flex items-center">
-              <div className="bg-black flex items-center justify-center">
-                <img src="/lovable-uploads/7fd38d18-a5d9-498b-8fd4-418f32b5ca22.png" alt="FeatureBox AI" className="h-8 mr-2" />
+              <div className="flex items-center justify-center">
+                <img src="/lovable-uploads/9f564abc-6ab3-45da-9608-7170bd8f05ed.png" alt="FeatureBox AI" className="h-8 mr-2" />
               </div>
               <span className="text-2xl font-bold text-brand-purple">FeatureBox AI</span>
             </Link>
