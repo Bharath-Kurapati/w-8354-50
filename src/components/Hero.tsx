@@ -12,7 +12,7 @@ const Hero = () => {
             <span className="text-gradient inline-block">
               2X
             </span>
-            {' '}accuracy with 90% less effort.
+            {' '}accuracy and 90% less effort.
           </h1>
           <p className="text-lg text-gray-300 mb-8 font-inter font-normal max-w-3xl mx-auto">
             Mid-market CPG planners reclaim hundreds of hours and reclaim up to 45% of their revenue.
