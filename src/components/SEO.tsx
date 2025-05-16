@@ -9,7 +9,12 @@ export interface SEOProps {
   type?: string;
 }
 
-const SEO = ({ title, description, imageUrl, type = 'website' }: SEOProps) => {
+const SEO = ({ 
+  title = "FeatureBox AI | Inventory forecasting for CPG brands", 
+  description = "Forecast inventory with 2X accuracy and 90% less effort. Mid-market CPG planners reclaim hundreds of hours and up to 45% of their revenue.", 
+  imageUrl = "/lovable-uploads/b5eadd34-1511-430f-92c4-8028dcfe204a.png", 
+  type = 'website' 
+}: SEOProps) => {
   return (
     <Helmet>
       <title>{title}</title>

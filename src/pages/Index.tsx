@@ -16,8 +16,8 @@ const Index = () => {
     <PageLayout>
       <SEO 
         title="FeatureBox AI | Inventory forecasting for CPG brands" 
-        description="Cut stock-outs & overstocks by ≥ 20% with FeatureBox AI's 4-step demand-planning workflow. Upload data today—see forecasts tomorrow."
-        imageUrl="/lovable-uploads/48ecf6e2-5a98-4a9d-af6f-ae2265cd4098.png"
+        description="Forecast inventory with 2X accuracy and 90% less effort. Mid-market CPG planners reclaim hundreds of hours and reclaim up to 45% of their revenue."
+        imageUrl="/lovable-uploads/b5eadd34-1511-430f-92c4-8028dcfe204a.png"
       />
       <Hero />
       <MagicExperience />
