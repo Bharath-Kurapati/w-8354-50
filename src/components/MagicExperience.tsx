@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Check } from 'lucide-react';
+import { Check, BarChart3, TrendingUp, Gauge, Database } from 'lucide-react';
 
 const MagicExperience = () => {
   const features = [
@@ -29,7 +29,7 @@ const MagicExperience = () => {
           Why FeatureBox AI feels like magic
         </h2>
         
-        <div className="dark-card-magic modern-saas-layout">
+        <div className="dark-card-magic modern-saas-layout grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
           {/* Left Column - Text */}
           <div className="text-column">
             <h3 className="text-2xl font-inter font-extrabold text-white mb-6">
@@ -53,31 +53,100 @@ const MagicExperience = () => {
                 </div>
               ))}
             </div>
+            
+            {/* Added dashboard-like metrics */}
+            <div className="mt-8 pt-8 border-t border-gray-800">
+              <h4 className="text-white text-lg mb-4">Usage Dashboard</h4>
+              <div className="grid grid-cols-2 gap-4">
+                <div className="bg-gray-900/50 p-4 rounded-lg">
+                  <div className="flex items-center mb-2">
+                    <Database className="h-4 w-4 text-brand-purple mr-2" />
+                    <span className="text-xs text-gray-400">Data Processed</span>
+                  </div>
+                  <p className="text-xl font-bold text-white">24.8TB</p>
+                  <div className="w-full h-1 bg-gray-800 rounded mt-2">
+                    <div className="h-full bg-brand-purple rounded" style={{ width: '70%' }}></div>
+                  </div>
+                </div>
+                <div className="bg-gray-900/50 p-4 rounded-lg">
+                  <div className="flex items-center mb-2">
+                    <TrendingUp className="h-4 w-4 text-brand-jade mr-2" />
+                    <span className="text-xs text-gray-400">Forecasts Created</span>
+                  </div>
+                  <p className="text-xl font-bold text-white">13.4K</p>
+                  <div className="w-full h-1 bg-gray-800 rounded mt-2">
+                    <div className="h-full bg-brand-jade rounded" style={{ width: '85%' }}></div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           
-          {/* Right Column - Stats displayed vertically */}
+          {/* Right Column - Stats displayed in dashboard form */}
           <div className="visual-column">
-            <div className="w-full md:w-[480px] h-[340px] rounded-lg shadow-[0_4px_12px_rgba(0,0,0,0.4)] overflow-hidden">
-              <div className="w-full h-full bg-dark-card flex flex-col items-center justify-center p-6">
-                {/* Key stats in vertical layout */}
-                <div className="flex flex-col space-y-4 w-full max-w-[320px]">
-                  <div className="bg-indigo-900/70 px-4 py-3 rounded-full">
-                    <p className="text-white font-inter font-bold text-center">2X accuracy</p>
+            <div className="w-full md:w-[480px] h-[400px] rounded-lg shadow-[0_4px_12px_rgba(0,0,0,0.4)] overflow-hidden">
+              <div className="w-full h-full bg-dark-card flex flex-col p-6">
+                <div className="flex items-center justify-between mb-6">
+                  <div className="flex items-center">
+                    <BarChart3 className="h-5 w-5 text-brand-purple mr-2" />
+                    <h3 className="text-lg font-bold text-white">Performance Dashboard</h3>
                   </div>
-                  <div className="bg-brand-jade/30 px-4 py-3 rounded-full">
-                    <p className="text-white font-inter font-bold text-center">90% less work</p>
-                  </div>
-                  <div className="bg-[#FF9F40]/30 px-4 py-3 rounded-full">
-                    <p className="text-white font-inter font-bold text-center">Up to 45% more revenue</p>
-                  </div>
-                  <div className="bg-brand-purple/30 px-4 py-3 rounded-full">
-                    <div className="flex items-center justify-center">
-                      <div className="h-6 w-6 rounded-full bg-brand-jade flex items-center justify-center mr-2">
-                        <Check className="h-4 w-4 text-white" />
-                      </div>
-                      <p className="text-white font-inter font-bold">Go live in days</p>
+                  <span className="text-xs text-gray-400">Updated 3h ago</span>
+                </div>
+                
+                {/* Dashboard metrics in card form */}
+                <div className="grid grid-cols-2 gap-4 mb-6">
+                  <div className="bg-gray-900/50 p-4 rounded-lg">
+                    <div className="flex justify-between mb-2">
+                      <span className="text-xs text-gray-400">Accuracy</span>
+                      <span className="text-xs text-emerald-400">+112%</span>
+                    </div>
+                    <div className="flex items-baseline">
+                      <span className="text-2xl font-bold text-white mr-2">2X</span>
+                      <span className="text-xs text-gray-400">vs Industry Avg</span>
                     </div>
                   </div>
+                  
+                  <div className="bg-gray-900/50 p-4 rounded-lg">
+                    <div className="flex justify-between mb-2">
+                      <span className="text-xs text-gray-400">Time Saved</span>
+                      <span className="text-xs text-emerald-400">+90%</span>
+                    </div>
+                    <div className="flex items-baseline">
+                      <span className="text-2xl font-bold text-white mr-2">45h</span>
+                      <span className="text-xs text-gray-400">weekly</span>
+                    </div>
+                  </div>
+                </div>
+                
+                {/* Revenue impact visualization */}
+                <div className="bg-gray-900/30 p-4 rounded-lg mb-4 flex-1">
+                  <div className="flex justify-between mb-4">
+                    <span className="text-sm text-white">Revenue Impact</span>
+                    <span className="text-xs text-emerald-400">+45%</span>
+                  </div>
+                  <div className="h-24 flex items-end space-x-2">
+                    {[30, 45, 35, 55, 40, 65, 50, 75, 60, 85, 70, 90].map((height, i) => (
+                      <div key={i} className="flex-1 h-full flex flex-col justify-end">
+                        <div 
+                          className={`rounded-sm ${
+                            i > 6 ? 'bg-brand-jade' : 'bg-gray-700'
+                          }`}
+                          style={{ height: `${height}%` }}
+                        ></div>
+                        <span className="text-[8px] text-gray-500 mt-1">{i+1}</span>
+                      </div>
+                    ))}
+                  </div>
+                  <div className="flex justify-between mt-1 text-xs">
+                    <span className="text-gray-500">Before FeatureBox</span>
+                    <span className="text-brand-jade">After FeatureBox</span>
+                  </div>
+                </div>
+                
+                <div className="flex justify-between text-xs text-gray-500">
+                  <span>Go live in days, not months</span>
+                  <span className="text-brand-jade">AI-Powered</span>
                 </div>
               </div>
             </div>

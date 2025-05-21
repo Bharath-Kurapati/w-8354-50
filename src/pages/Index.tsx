@@ -11,6 +11,8 @@ import SecurityBanner from '@/components/SecurityBanner';
 import CTABanner from '@/components/CTABanner';
 import SEO from '@/components/SEO';
 import VisionProducts from '@/components/VisionProducts';
+import PainPoints from '@/components/PainPoints';
+import WorkflowComparison from '@/components/WorkflowComparison';
 
 const Index = () => {
   return (
@@ -21,11 +23,13 @@ const Index = () => {
         imageUrl="/lovable-uploads/b5eadd34-1511-430f-92c4-8028dcfe204a.png"
       />
       <Hero />
-      <Benefits />
-      <MagicExperience />
       <VisualCredibility />
-      <Testimonials />
+      <PainPoints />
+      <Benefits />
+      <WorkflowComparison />
+      <MagicExperience />
       <VisionProducts />
+      <Testimonials />
       <CaseStudy />
       <Traction />
       <SecurityBanner />
