@@ -15,10 +15,7 @@ const Hero = () => {
             {' '}accuracy and 90% less effort.
           </h1>
           <p className="text-lg text-white font-inter font-normal max-w-3xl mx-auto mb-3">
-            CPG planners reclaim hundreds of hours and up to 45% of their revenue.
-          </p>
-          <p className="text-xl text-white font-inter mb-8">
-            One platform. Three ways to unlock trapped value quickly.
+            Supply Chain planners reclaim hundreds of hours and up to 45% of their revenue.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <a 
