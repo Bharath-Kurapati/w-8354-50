@@ -32,7 +32,7 @@ const Benefits = () => {
             Businesses reclaim up to 45% of revenue with FeatureBox AI
           </h2>
           <p className="text-xl text-white font-inter">
-            One platform. Three ways to unlock trapped value—fast.
+            One platform. Three ways to unlock trapped value quickly.
           </p>
         </div>
 

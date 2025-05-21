@@ -38,10 +38,10 @@ const Footer = () => {
             <ul className="space-y-2 text-sm">
               <li>
                 <a 
-                  href="mailto:bharath_kurapati@berkeley.edu" 
+                  href="mailto:team@featureboxai.com" 
                   className="hover:text-white transition-colors"
                 >
-                  bharath_kurapati@berkeley.edu
+                  team@featureboxai.com
                 </a>
               </li>
               <li><Link to="/" className="hover:text-white transition-colors">Contact sales</Link></li>

@@ -11,7 +11,7 @@ const CTABanner = () => {
             Ready to get started?
           </h2>
           <a 
-            href="https://docs.google.com/forms/d/1QGD_VkNt4dabo6F7wgrBmqj6Ozc-pkm_JAzpEUeJUtw/edit"
+            href="https://calendly.com/featureboxai/demo"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -19,7 +19,7 @@ const CTABanner = () => {
               size="lg" 
               className="bg-[#00B37E] hover:bg-emerald-600 text-white rounded-md px-8 hover:translate-y-[-2px] transition-all"
             >
-              Request Demo
+              Request a Demo
             </Button>
           </a>
           <p className="mt-4 text-gray-600 text-sm">
