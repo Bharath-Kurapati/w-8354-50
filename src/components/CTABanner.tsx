@@ -31,7 +31,7 @@ const CTABanner = () => {
               Ready to transform your Supply Chain?
             </h2>
             <a 
-              href="https://calendly.com/featureboxai/demo"
+              href="https://calendar.app.google/BHA2JfFf1GVNdjJV6"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -39,7 +39,7 @@ const CTABanner = () => {
                 size="lg" 
                 className="bg-[#00B37E] hover:bg-emerald-600 text-white rounded-md px-8 hover:translate-y-[-2px] transition-all"
               >
-                Request a Demo
+                Request A Demo
               </Button>
             </a>
             <p className="mt-4 text-gray-400 text-sm">

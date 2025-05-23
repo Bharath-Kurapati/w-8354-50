@@ -50,7 +50,7 @@ const Navbar = () => {
               Follow us on LinkedIn
             </a>
             <a 
-              href="https://calendly.com/featureboxai/demo"
+              href="https://calendar.app.google/BHA2JfFf1GVNdjJV6"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -58,7 +58,7 @@ const Navbar = () => {
                 variant="default" 
                 className="bg-brand-purple hover:bg-brand-purpleLight text-white rounded-md font-inter"
               >
-                Request Demo
+                Request A Demo
               </Button>
             </a>
           </nav>
@@ -88,7 +88,7 @@ const Navbar = () => {
             </a>
             <div className="px-3 py-2">
               <a 
-                href="https://calendly.com/featureboxai/demo"
+                href="https://calendar.app.google/BHA2JfFf1GVNdjJV6"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -96,7 +96,7 @@ const Navbar = () => {
                   variant="default" 
                   className="w-full bg-brand-purple hover:bg-brand-purpleLight text-white rounded-md font-inter"
                 >
-                  Request Demo
+                  Request A Demo
                 </Button>
               </a>
             </div>

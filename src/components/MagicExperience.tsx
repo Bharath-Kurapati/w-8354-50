@@ -119,8 +119,8 @@ const MagicExperience = () => {
                   </div>
                 </div>
                 
-                <div className="flex justify-between text-xs text-gray-500">
-                  <span>Go live in days, not months</span>
+                <div className="flex justify-between items-center text-xs">
+                  <span className="text-gray-500">Go live in days, not months</span>
                   <span className="text-brand-jade">AI-Powered</span>
                 </div>
               </div>

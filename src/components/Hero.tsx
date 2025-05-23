@@ -21,7 +21,7 @@ const Hero = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 items-start">
               <a 
-                href="https://calendly.com/featureboxai/demo"
+                href="https://calendar.app.google/BHA2JfFf1GVNdjJV6"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -29,7 +29,7 @@ const Hero = () => {
                   size="lg" 
                   className="bg-brand-purple hover:bg-brand-purpleLight text-white rounded-md px-8 hover:translate-y-[-2px] transition-all font-inter"
                 >
-                  Request a Demo
+                  Request A Demo
                 </Button>
               </a>
             </div>

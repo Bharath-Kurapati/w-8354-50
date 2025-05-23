@@ -33,12 +33,15 @@ const PainPoints = () => {
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold mb-6">
             <span className="text-4xl font-bold bg-gradient-to-r from-indigo-600 to-emerald-500 bg-clip-text text-transparent">
-              $1.7T
+              $1.7 Trillion
             </span>{' '}
-            inventory distortion every year
+            in annual inventory problems
           </h2>
           <p className="text-lg text-white max-w-3xl mx-auto">
-            Businesses lose 15-45% of revenue to stock-outs, overstock & storage fees.
+            Every year, businesses lose 15-45% of potential revenue due to three main inventory issues:
+          </p>
+          <p className="text-md text-gray-300 max-w-3xl mx-auto mt-2">
+            Stock-outs (not enough inventory), overstock (too much inventory), and unnecessary storage fees.
           </p>
         </div>
 

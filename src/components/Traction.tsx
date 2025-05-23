@@ -57,7 +57,7 @@ const Traction = () => {
           
           <div className="text-center">
             <a 
-              href="https://calendly.com/featureboxai/demo"
+              href="https://calendar.app.google/BHA2JfFf1GVNdjJV6"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block"
@@ -65,7 +65,7 @@ const Traction = () => {
               <Button
                 className="bg-brand-purple hover:bg-brand-purpleLight text-white rounded-md px-8 hover:translate-y-[-2px] transition-all"
               >
-                Request a Demo
+                Request A Demo
               </Button>
             </a>
           </div>
