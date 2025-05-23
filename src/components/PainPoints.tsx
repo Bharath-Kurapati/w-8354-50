@@ -38,7 +38,7 @@ const PainPoints = () => {
             inventory distortion every year
           </h2>
           <p className="text-lg text-white max-w-3xl mx-auto">
-            SMBs lose 15-45% of revenue to stock-outs, overstock & storage fees.
+            Businesses lose 15-45% of revenue to stock-outs, overstock & storage fees.
           </p>
         </div>
 
