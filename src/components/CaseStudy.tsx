@@ -61,7 +61,7 @@ const CaseStudy = () => {
                 className="bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-6 text-lg h-auto"
                 asChild
               >
-                Request a Demo
+                Get A Demo
               </Button>
               </a>
             </div>
