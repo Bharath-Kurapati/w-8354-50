@@ -31,9 +31,6 @@ const Benefits = () => {
           <h2 className="text-3xl md:text-4xl font-inter font-extrabold bg-gradient-to-r from-[#5145FF] to-[#00B37E] bg-clip-text text-transparent mb-4">
             Businesses reclaim up to 45% of revenue with FeatureBox AI
           </h2>
-          <p className="text-xl text-white font-inter">
-            One platform. Three ways to unlock trapped value quickly.
-          </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
