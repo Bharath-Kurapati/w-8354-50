@@ -3,16 +3,12 @@ import PageLayout from '@/components/PageLayout';
 import Hero from '@/components/Hero';
 import Benefits from '@/components/Benefits';
 import MagicExperience from '@/components/MagicExperience';
-import VisualCredibility from '@/components/VisualCredibility';
 import Testimonials from '@/components/Testimonials';
-import CaseStudy from '@/components/CaseStudy';
-import Traction from '@/components/Traction';
 import SecurityBanner from '@/components/SecurityBanner';
 import CTABanner from '@/components/CTABanner';
 import SEO from '@/components/SEO';
 import VisionProducts from '@/components/VisionProducts';
 import PainPoints from '@/components/PainPoints';
-import WorkflowComparison from '@/components/WorkflowComparison';
 
 const Index = () => {
   return (
@@ -23,15 +19,11 @@ const Index = () => {
         imageUrl="/lovable-uploads/b5eadd34-1511-430f-92c4-8028dcfe204a.png"
       />
       <Hero />
-      <VisualCredibility />
       <PainPoints />
       <Benefits />
-      <WorkflowComparison />
       <MagicExperience />
       <VisionProducts />
       <Testimonials />
-      <CaseStudy />
-      <Traction />
       <SecurityBanner />
       <CTABanner />
     </PageLayout>

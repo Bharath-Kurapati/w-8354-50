@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
-import { Menu } from 'lucide-react';
+import { Menu, Linkedin } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
@@ -40,20 +40,17 @@ const Navbar = () => {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-6">
-            <Link to="/" className="text-sm font-medium text-gray-300 hover:text-brand-purple transition-colors font-inter">
-              Case Study
-            </Link>
-            <Link to="/" className="text-sm font-medium text-gray-300 hover:text-brand-purple transition-colors font-inter">
-              Vision
-            </Link>
-            <Link to="/" className="text-sm font-medium text-gray-300 hover:text-brand-purple transition-colors font-inter">
-              Team
-            </Link>
-            <Link to="/careers" className="text-sm font-medium text-gray-300 hover:text-brand-purple transition-colors font-inter">
-              Careers
-            </Link>
             <a 
-              href="https://docs.google.com/forms/d/1QGD_VkNt4dabo6F7wgrBmqj6Ozc-pkm_JAzpEUeJUtw/edit"
+              href="https://www.linkedin.com/company/featurebox-ai" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-sm font-medium text-gray-300 hover:text-brand-purple transition-colors font-inter flex items-center"
+            >
+              <Linkedin className="h-4 w-4 mr-2" />
+              Follow us on LinkedIn
+            </a>
+            <a 
+              href="https://calendly.com/featureboxai/demo"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -80,21 +77,18 @@ const Navbar = () => {
       {isMobileMenuOpen && (
         <div className="md:hidden bg-black shadow-lg">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-            <Link to="/" className="block px-3 py-2 text-base font-medium text-gray-300 hover:text-brand-purple hover:bg-gray-900 rounded-md font-inter">
-              Case Study
-            </Link>
-            <Link to="/" className="block px-3 py-2 text-base font-medium text-gray-300 hover:text-brand-purple hover:bg-gray-900 rounded-md font-inter">
-              Vision
-            </Link>
-            <Link to="/" className="block px-3 py-2 text-base font-medium text-gray-300 hover:text-brand-purple hover:bg-gray-900 rounded-md font-inter">
-              Team
-            </Link>
-            <Link to="/careers" className="block px-3 py-2 text-base font-medium text-gray-300 hover:text-brand-purple hover:bg-gray-900 rounded-md font-inter">
-              Careers
-            </Link>
+            <a 
+              href="https://www.linkedin.com/company/featurebox-ai" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="flex items-center px-3 py-2 text-base font-medium text-gray-300 hover:text-brand-purple hover:bg-gray-900 rounded-md font-inter"
+            >
+              <Linkedin className="h-4 w-4 mr-2" />
+              Follow us on LinkedIn
+            </a>
             <div className="px-3 py-2">
               <a 
-                href="https://docs.google.com/forms/d/1QGD_VkNt4dabo6F7wgrBmqj6Ozc-pkm_JAzpEUeJUtw/edit"
+                href="https://calendly.com/featureboxai/demo"
                 target="_blank"
                 rel="noopener noreferrer"
               >

@@ -15,9 +15,9 @@ const Testimonials = () => {
       company: "DTC Food Brand"
     },
     {
-      quote: "We reduced stockouts by 35% and freed up $2M in working capital within the first 60 days.",
-      role: "COO",
-      company: "Personal Care Brand"
+      quote: "The accuracy of FeatureBox AI has transformed how we approach inventory planning, making our entire supply chain more efficient.",
+      role: "Operations Director",
+      company: "Consumer Goods Manufacturer"
     }
   ];
 
