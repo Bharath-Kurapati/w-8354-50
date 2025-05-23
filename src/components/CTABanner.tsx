@@ -39,7 +39,7 @@ const CTABanner = () => {
                 size="lg" 
                 className="bg-[#00B37E] hover:bg-emerald-600 text-white rounded-md px-8 hover:translate-y-[-2px] transition-all"
               >
-                Request A Demo
+                Get A Demo
               </Button>
             </a>
             <p className="mt-4 text-gray-400 text-sm">
