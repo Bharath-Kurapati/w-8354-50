@@ -28,7 +28,7 @@ const CTABanner = () => {
           
           <div className="text-center">
             <h2 className="text-3xl font-bold mb-6 text-white">
-              Ready to transform your inventory forecasting?
+              Ready to transform your Supply Chain?
             </h2>
             <a 
               href="https://calendly.com/featureboxai/demo"
