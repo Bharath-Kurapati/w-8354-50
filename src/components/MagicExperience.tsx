@@ -120,10 +120,6 @@ const MagicExperience = () => {
                 </div>
                 
                 {/* Fixed the alignment and text overflow by adding px-1 for padding and truncate for overflow control */}
-                <div className="flex justify-between items-center text-xs px-1">
-                  <span className="text-gray-500 truncate mr-2">Go live in days, not months</span>
-                  <span className="text-brand-jade truncate">AI-Powered</span>
-                </div>
               </div>
             </div>
           </div>
