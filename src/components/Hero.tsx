@@ -39,7 +39,6 @@ const Hero = () => {
           <div className="relative mt-8 lg:mt-0">
             <div className="bg-[#1A1A1A] rounded-lg p-4 border border-[#2A2A2A] shadow-xl overflow-hidden">
               <div className="flex items-center justify-between mb-4">
-                <h3 className="text-white font-bold">AI Forecasting Dashboard</h3>
                 <div className="flex space-x-2">
                   <span className="bg-red-500 rounded-full w-3 h-3"></span>
                   <span className="bg-yellow-500 rounded-full w-3 h-3"></span>
