@@ -65,7 +65,7 @@ const Traction = () => {
               <Button
                 className="bg-brand-purple hover:bg-brand-purpleLight text-white rounded-md px-8 hover:translate-y-[-2px] transition-all"
               >
-                Request A Demo
+                Get A Demo
               </Button>
             </a>
           </div>
