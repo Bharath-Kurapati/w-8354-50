@@ -55,31 +55,6 @@ const MagicExperience = () => {
             </div>
             
             {/* Added dashboard-like metrics */}
-            <div className="mt-8 pt-8 border-t border-gray-800">
-              <h4 className="text-white text-lg mb-4">Usage Dashboard</h4>
-              <div className="grid grid-cols-2 gap-4">
-                <div className="bg-gray-900/50 p-4 rounded-lg">
-                  <div className="flex items-center mb-2">
-                    <Database className="h-4 w-4 text-brand-purple mr-2" />
-                    <span className="text-xs text-gray-400">Data Processed</span>
-                  </div>
-                  <p className="text-xl font-bold text-white">24.8TB</p>
-                  <div className="w-full h-1 bg-gray-800 rounded mt-2">
-                    <div className="h-full bg-brand-purple rounded" style={{ width: '70%' }}></div>
-                  </div>
-                </div>
-                <div className="bg-gray-900/50 p-4 rounded-lg">
-                  <div className="flex items-center mb-2">
-                    <TrendingUp className="h-4 w-4 text-brand-jade mr-2" />
-                    <span className="text-xs text-gray-400">Forecasts Created</span>
-                  </div>
-                  <p className="text-xl font-bold text-white">13.4K</p>
-                  <div className="w-full h-1 bg-gray-800 rounded mt-2">
-                    <div className="h-full bg-brand-jade rounded" style={{ width: '85%' }}></div>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
           
           {/* Right Column - Stats displayed in dashboard form */}
