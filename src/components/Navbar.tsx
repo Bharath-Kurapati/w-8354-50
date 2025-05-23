@@ -58,7 +58,7 @@ const Navbar = () => {
                 variant="default" 
                 className="bg-brand-purple hover:bg-brand-purpleLight text-white rounded-md font-inter"
               >
-                Request A Demo
+                Get A Demo
               </Button>
             </a>
           </nav>
@@ -96,7 +96,7 @@ const Navbar = () => {
                   variant="default" 
                   className="w-full bg-brand-purple hover:bg-brand-purpleLight text-white rounded-md font-inter"
                 >
-                  Request A Demo
+                  Get A Demo
                 </Button>
               </a>
             </div>
